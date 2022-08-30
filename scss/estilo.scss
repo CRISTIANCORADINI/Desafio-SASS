@@ -1,0 +1,118 @@
+@import "reseteo";
+@import "variables";
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    background-color: $color-principal;
+    
+    header {
+        background-color: $color-principal;
+        height: 50vw;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        grid-area: header;
+
+        nav {
+                
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: sticky;
+                top: 0;
+                grid-area: nav;
+
+                ul {
+                    li {
+                        list-style: none;
+                        display: inline-block;
+                        margin: 2rem
+                    }
+                    a {
+                        text-decoration: none;
+                        color: $color-principal;
+
+                        
+                    }
+                }
+            
+        }
+        .logo {
+            padding-top: 15rem;
+            color: white;
+            font-weight: 10rem ;
+            height: 50rem;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        
+        }
+        h1 {
+            font-size: 20rem;
+            
+        }
+    }
+    section {
+        display: flex;
+        
+        div{
+             background-color: white;
+        margin: 3rem;
+        padding: 0.5rem;
+        height: 50rem;
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        
+       
+
+        img {
+            width: 25rem;
+        }
+        p {
+            text-align: center;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        button {
+            border-radius: 3px;
+            background-color: white;
+            width: 10rem;
+            height: rem;
+            cursor: pointer;
+            margin-bottom: 1rem;
+            text-decoration-color: white;
+            &:hover {
+                background-color: grey;
+            }
+        }
+        }
+    }
+    footer {
+        padding-top: 1rem;
+        background-color: white;
+        text-align: center;
+        grid-area: footer;
+
+        ul {
+            li {
+                display: inline-block;
+                margin: 2rem;
+            }
+            a {
+                text-decoration: none;
+                        color: $color-principal;
+            }
+        }
+    }
+    
+    
+}

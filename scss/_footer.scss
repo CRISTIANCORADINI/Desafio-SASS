@@ -1,0 +1,17 @@
+footer {
+    padding-top: 1rem;
+    background-color: white;
+    text-align: center;
+    grid-area: footer;
+
+    ul {
+        li {
+            display: inline-block;
+            margin: 2rem;
+        }
+        a {
+            text-decoration: none;
+                    color: $color-principal;
+        }
+    }
+}
